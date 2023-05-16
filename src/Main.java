@@ -51,6 +51,7 @@ public class Main {
                 endGame = true;
             }
             if (chances <= 0) {
+                System.out.println("the number was " + random);
                 endGame = true;
             }
         }
