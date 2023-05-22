@@ -26,7 +26,7 @@ public class Main {
             }
 
             System.out.println("you have " + chances + " chances");
-            System.out.println("devtest: " + random); //for testing purposes
+            System.out.println("devtest: " + random); //for testing purposes, to be removed
             System.out.println("guess a number between 0 and 1000 (exclusive)");
             while (!scan.hasNextInt()) {
                 System.out.println("that is not a number");
